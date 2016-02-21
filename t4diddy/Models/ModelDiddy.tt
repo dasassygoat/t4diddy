@@ -5,4 +5,15 @@
 <#@ import namespace="System.Collections.Generic" #>
 <#@ output extension=".txt" #>
 
-Christmas is on <#= DateTime.Today; #>
+Today is <#= DateTime.Today; #>
+<html>
+<head><title>something</title></head>
+<body>
+
+
+<#= foreach(var e in System.Diagnostics.EventLog.GetEventLogs){
+								e.Entries.ToString;
+							} #>
+
+</body>
+</html>
