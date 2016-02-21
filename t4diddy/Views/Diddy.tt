@@ -3,4 +3,14 @@
 <#@ import namespace="System.Linq" #>
 <#@ import namespace="System.Text" #>
 <#@ import namespace="System.Collections.Generic" #>
-<#@ output extension=".txt" #>
+<#@ output extension=".html" #>
+
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Some Title for today, <#= DateTime.Now.ToString() #></title></head>
+<body>
+Some body text
+</body>
+</html>

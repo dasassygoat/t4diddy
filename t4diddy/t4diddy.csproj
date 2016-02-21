@@ -174,18 +174,8 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\EF6CodeFirstCSharp.Views1.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>EF6CodeFirstCSharp.Views1.tt</DependentUpon>
-    </Compile>
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
-    <Compile Include="Models\RuntimeTextTemplate1.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>RuntimeTextTemplate1.tt</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -196,23 +186,6 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="Models\EF6CodeFirstCSharp.Views1.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>EF6CodeFirstCSharp.Views1.cs</LastGenOutput>
-    </Content>
-    <Content Include="Models\ModelDiddy.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>ModelDiddy.txt</LastGenOutput>
-    </Content>
-    <Content Include="Models\ModelDiddy.txt">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ModelDiddy.tt</DependentUpon>
-    </Content>
-    <Content Include="Models\RuntimeTextTemplate1.tt">
-      <Generator>TextTemplatingFilePreprocessor</Generator>
-      <LastGenOutput>RuntimeTextTemplate1.cs</LastGenOutput>
-    </Content>
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
@@ -227,14 +200,14 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Views\Diddy.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>Diddy.txt</LastGenOutput>
-    </Content>
-    <Content Include="Views\Diddy.txt">
+    <Content Include="Views\Diddy.html">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Diddy.tt</DependentUpon>
+    </Content>
+    <Content Include="Views\Diddy.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Diddy.html</LastGenOutput>
     </Content>
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
